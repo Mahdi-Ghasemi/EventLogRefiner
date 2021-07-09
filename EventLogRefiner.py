@@ -49,14 +49,14 @@ HeaderOfOriginalLog=OriginalList[0]
 #Removing the header of Original log from the list
 OriginalList=OriginalList[1:]
 
-# Sorting the original log based on the case name
+#Sorting the original log based on the case name
 OriginalList.sort(key=lambda event: event[0])
 
 
 NumberOfEvents=len(OriginalList)
 
 
-#MAking the output csv:
+#Making the output csv:
 
 RefinedEventLogFileName='NewEventLog'+time.strftime('@%Y-%m-%dT%H-%M-%S', time.localtime())+'.csv'
 RefinedEventLogFile = csv.writer(open(RefinedEventLogFileName, 'a', newline=''))
