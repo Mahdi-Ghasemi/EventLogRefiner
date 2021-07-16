@@ -36,11 +36,11 @@ The tool works via command-line arguments in CMD where Python 3 is running. The 
 - If there is any space character in the names of CSV files, the name must be between double quotations (").
 
 Examples:   
-> _...> python EventLogRefiner.py -Original myevent.csv -SelectedCases myselection.csv_
+>` ...> python EventLogRefiner.py -Original myevent.csv -SelectedCases myselection.csv`
 
 > The csv arguments can also be mentioned as abbreviated or shorter names:  
-> _...> python EventLogRefiner.py -O myevent.csv -S myselection.csv_   
-> _..> python EventLogRefiner.py -Orig myevent.csv -Sel myselection.csv_
+>` ...> python EventLogRefiner.py -O myevent.csv -S myselection.csv `  
+>` ..> python EventLogRefiner.py -Orig myevent.csv -Sel myselection.csv` 
 
-> The CSV arguments position in the command line is flexible:  
-> _...> python EventLogRefiner.py -S myselection.csv -O myevent.csv_
+> The CSV arguments position in the command line is flexible:   
+>` ...> python EventLogRefiner.py -S myselection.csv -O myevent.csv`
