@@ -4,7 +4,7 @@
 # This tool gets two CSV files as input and generates a new CSV file as output. One CSV file is a raw event log
 # whose rows are the information of events recorded in the database and the second CSV file is the list of the
 # name of cases selected through Goal-oriented Process Enhancement and Discovery (GoPED) or any other filtering scheme.
-# This tool removes all event information of the cases that are not as selected, and generate a new event log.
+# This tool removes all event information of the cases that are not selected, and generate a new event log.
 ######################################################################################################################
 
 
