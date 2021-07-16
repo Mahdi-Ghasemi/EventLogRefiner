@@ -30,17 +30,17 @@ The name of the output file will be as _NewEventLog@{date and time}.csv_. This f
 ## **How to run the tool:**
 The tool works via command-line arguments in CMD where Python 3 is running. The format of the string must be as follows:
 
-…> python EventLogRefiner.py -Original {the name of CSV file with .csv} -SelectedCases { the name of CSV file with .csv }
+…> python EventLogRefiner_1.py -Original {the name of CSV file with .csv} -SelectedCases { the name of CSV file with .csv }
 
 - It is strongly suggested not to use any special character in the CSV files name, such as space.
 - If there is any space character in the names of CSV files, the name must be between double quotations (").
 
 Examples:   
->` ...> python EventLogRefiner.py -Original myevent.csv -SelectedCases myselection.csv`
+>` ...> python EventLogRefiner_1.py -Original myevent.csv -SelectedCases myselection.csv`
 
 > The csv arguments can also be mentioned as abbreviated or shorter names:  
->` ...> python EventLogRefiner.py -O myevent.csv -S myselection.csv `  
->` ..> python EventLogRefiner.py -Orig myevent.csv -Sel myselection.csv` 
+>` ...> python EventLogRefiner_1.py -O myevent.csv -S myselection.csv `  
+>` ..> python EventLogRefiner_1.py -Orig myevent.csv -Sel myselection.csv` 
 
 > The CSV arguments position in the command line is flexible:   
->` ...> python EventLogRefiner.py -S myselection.csv -O myevent.csv`
+>` ...> python EventLogRefiner_1.py -S myselection.csv -O myevent.csv`
